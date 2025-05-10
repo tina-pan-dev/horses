@@ -1,0 +1,40 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.button-section {
+  text-align: right;
+}
+
+.button-section button {
+  margin-left: 3px;
+}
+
+.horse-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.horse-card p {
+  margin: 0;
+}
+
+.horse-card p:first-child {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.horse-details {
+  font-size: 0.9rem;
+  color: #333;
+}
